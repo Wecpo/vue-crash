@@ -1,28 +1,6 @@
 <script>
 export default {
-  data() {
-    return {
-      name: 'John Doe',
-      status: `123`,
-      tasks: ['Task one', 'Task two', 'Task three'],
-      link: 'https://google.com'
-    }
-  },
-  methods: {
-    toggleStatus() {
-      if (this.status === 'active') {
-        this.status = 'pending'
-      }
 
-      if (this.status === 'pending') {
-        this.status = 'inactive'
-      }
-
-      else {
-        this.status = 'active'
-      }
-    }
-  }
 }
 </script>
 
