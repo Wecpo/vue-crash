@@ -1,29 +1,21 @@
-<script>
-export default {
-  data() {
-    return {
-      name: 'John Doe',
-      status: `123`,
-      tasks: ['Task one', 'Task two', 'Task three'],
-      link: 'https://google.com'
-    }
-  },
-  methods: {
-    toggleStatus() {
-      if (this.status === 'active') {
-        this.status = 'pending'
-      }
+<script setup>
+import { ref } from "vue";
 
-      if (this.status === 'pending') {
-        this.status = 'inactive'
-      }
+const name = ref("John Doe");
+const status = ref("pending");
+const tasks = ref(["Task One", "Task Two", "Task Three"]);
 
-      else {
-        this.status = 'active'
-      }
-    }
+const toggleStatus = () => {
+  if (status.value === "active") {
+    status.value = "pending";
   }
-}
+
+  if (status.value === "pending") {
+    status.value = "inactive";
+  } else {
+    status.value = "active";
+  }
+};
 </script>
 
 <template>
@@ -34,11 +26,8 @@ export default {
 
   <h3>Tasks:</h3>
   <ul>
-    <li v-for="task in tasks" :key="task">{{ task }} </li>
+    <li v-for="task in tasks" :key="task">{{ task }}</li>
   </ul>
-  <!-- <a v-bind:href="link">Click for Google</a> -->
-  <a :href="link">Click for Google</a>
-  <br>
   <button @click="toggleStatus">Change Status</button>
 </template>
 
