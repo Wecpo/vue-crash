@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Senior Vue Developer",
       "type": "Full-Time",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Front-End Engineer (Vue)",
       "type": "Full-Time",
       "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Vue.js Developer",
       "type": "Full-Time",
       "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Vue Front-End Developer",
       "type": "Part-Time",
       "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Full Stack Vue Developer",
       "type": "Full-Time",
       "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Vue Native Developer",
       "type": "Full-Time",
       "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
@@ -83,160 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "title": "asd",
-      "type": "Full-Time",
-      "location": "asd",
-      "description": "",
-      "salary": "$60K - $70K",
-      "company": {
-        "name": "asd",
-        "description": "asd",
-        "contactEmail": "asd@asd",
-        "contactPhone": "123"
-      },
-      "id": 7
-    },
-    {
-      "title": "asd",
-      "type": "Full-Time",
-      "location": "asd",
-      "description": "asd",
-      "salary": "$60K - $70K",
-      "company": {
-        "name": "asd",
-        "description": "asd",
-        "contactEmail": "asd@asd",
-        "contactPhone": "asd"
-      },
-      "id": 8
-    },
-    {
-      "title": "sad",
-      "type": "Full-Time",
-      "location": "asd",
-      "description": "asd",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "asd",
-        "description": "asd",
-        "contactEmail": "asd@asd",
-        "contactPhone": "1111111111111333"
-      },
-      "id": 9
-    },
-    {
-      "title": "test ob Listing Name",
-      "type": "Full-Time",
-      "location": "asd",
-      "description": "Description",
-      "salary": "Over $200K",
-      "company": {
-        "name": "asd",
-        "description": "asd",
-        "contactEmail": "asd@asd131313",
-        "contactPhone": "asdasd"
-      },
-      "id": 10
-    },
-    {
-      "title": "Максим",
-      "type": "Full-Time",
-      "location": "sda",
-      "description": "asd",
-      "salary": "Over $200K",
-      "company": {
-        "name": "dsa",
-        "description": "asd",
-        "contactEmail": "asd@asd131313",
-        "contactPhone": "das"
-      },
-      "id": 11
-    },
-    {
-      "title": "Максим",
-      "type": "Full-Time",
-      "location": "Location",
-      "description": "gjhghj",
-      "salary": "$125K - $150K",
-      "company": {
-        "name": "Company ",
-        "description": "23158",
-        "contactEmail": "asd@asd131313",
-        "contactPhone": "asdasd"
-      },
-      "id": 12
-    },
-    {
-      "title": "asd",
-      "type": "Full-Time",
-      "location": "asd",
-      "description": "asd",
-      "salary": "$60K - $70K",
-      "company": {
-        "name": "asd",
-        "description": "asd",
-        "contactEmail": "asd@asd",
-        "contactPhone": "asd"
-      },
-      "id": 13
-    },
-    {
-      "title": "asd",
-      "type": "Full-Time",
-      "location": "sasdasdasd",
-      "description": "asdsadas",
-      "salary": "$175K - $200K",
-      "company": {
-        "name": "asdasdasd",
-        "description": "asdasdasd",
-        "contactEmail": "asd@asd",
-        "contactPhone": "asdasdasd"
-      },
-      "id": 14
-    },
-    {
-      "title": "test ob Listing Name",
-      "type": "Part-Time",
-      "location": "da sddsa as ad ",
-      "description": "ads sa ad ad",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "asd asd asd asdasd asd",
-        "description": "a das asd asd asd asd",
-        "contactEmail": "asd@asd",
-        "contactPhone": "asdasdas dasd123123214"
-      },
-      "id": 15
-    },
-    {
-      "title": "Job Listing Name",
-      "type": "Internship",
-      "location": "Location",
-      "description": "Description",
-      "salary": "Over $200K",
-      "company": {
-        "name": "Company Name",
-        "description": "Company Description",
-        "contactEmail": "test@tests",
-        "contactPhone": "1111111111111333"
-      },
-      "id": 16
-    },
-    {
-      "title": "Максим",
-      "type": "Full-Time",
-      "location": "das asd ",
-      "description": "asd asd asd sad ",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "asd asd asd ",
-        "description": "sad asd asd ",
-        "contactEmail": "asd@asd",
-        "contactPhone": "412341234124"
-      },
-      "id": 17
     }
   ]
 }
