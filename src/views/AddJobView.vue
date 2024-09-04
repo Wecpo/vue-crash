@@ -1,4 +1,5 @@
 <script setup>
+import router from '@/router';
 import { reactive } from 'vue';
 
 const form = reactive({
@@ -16,7 +17,34 @@ const form = reactive({
 })
 
 const handleSubmit = async () => {
-    console.log(form.title);
+    const newJob = {
+        title: form.title,
+        type: form.type,
+        location: form.location,
+        description: form.description,
+        salary: form.salary,
+        company: {
+            name: form.company.name,
+            description: form.company.description,
+            contactEmail: form.company.contactEmail,
+            contactPhone: form.company.contactPhone
+        }
+    }
+
+    try {
+        const response = await fetch(`/api/jobs/`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+            body: JSON.stringify(newJob)
+        })
+        const data = await response.json();
+        router.push(`/jobs/${data.id}`)
+    } catch (error) {
+        console.log(error);
+    }
+
 
 }
 </script>
