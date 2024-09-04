@@ -1,6 +1,7 @@
 <script setup>
 import router from '@/router';
 import { reactive } from 'vue';
+import { useToast } from 'vue-toastification';
 
 const form = reactive({
     type: 'Full-Time',
@@ -15,6 +16,8 @@ const form = reactive({
         contactPhone: ''
     }
 })
+
+const toast = useToast()
 
 const handleSubmit = async () => {
     const newJob = {
@@ -39,9 +42,11 @@ const handleSubmit = async () => {
             },
             body: JSON.stringify(newJob)
         })
+        toast.success('Job Added Successfully')
         const data = await response.json();
         router.push(`/jobs/${data.id}`)
     } catch (error) {
+        toast.error('Job Was Not Added')
         console.log(error);
     }
 
