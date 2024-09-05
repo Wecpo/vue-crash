@@ -4,7 +4,7 @@ import JobListing from "./JobListing.vue";
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 
 defineProps({
-    limit: String,
+    limit: Number,
     showButton: {
         type: Boolean,
         default: false
